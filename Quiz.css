@@ -17,16 +17,13 @@ body {
 }
 
 h1 {
-    display: inline-block;
-    width: 100%;
-    padding: 20px;
-    background-color: #000000;
+    text-align: center;
     color: #fff;
+    background-color: #000000;
     border: none;
     border-radius: 10px;
-    font-size: 20px;
-    text-align: center;
-    margin: 0 auto;
+    padding: 15px;
+    display: block;
 }
 
 .question {
