@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Ética Digital</title>
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz sobre Ética Digital</h1>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. O que é ética digital?</p>
+                <label><input type="radio" name="q1" value="a">A) Ética que se aplica à programação de computadores.</label><br>
+                <label><input type="radio" name="q1" value="b">B) Princípios de comportamento correto na internet.</label><br>
+                <label><input type="radio" name="q1" value="c">C) Um código de conduta para desenvolvedores de software.</label><br>
+            </div>
 
+            <div class="question">
+                <p>2. Qual das alternativas a seguir é uma prática ética na internet?</p>
+                <label><input type="radio" name="q2" value="a">A) Compartilhar informações pessoais de outros sem permissão.</label><br>
+                <label><input type="radio" name="q2" value="b">B) Utilizar senhas fortes e seguras.</label><br>
+                <label><input type="radio" name="q2" value="c">C) Baixar conteúdos piratas.</label><br>
+            </div>
+
+            <div class="question">
+                <p>3. O que é um comportamento antiético online?</p>
+                <label><input type="radio" name="q3" value="a">A) Plagiar conteúdo de outros sites.</label><br>
+                <label><input type="radio" name="q3" value="b">B) Citar a fonte ao utilizar material de terceiros.</label><br>
+                <label><input type="radio" name="q3" value="c">C) Respeitar a privacidade das pessoas online.</label><br>
+            </div>
+
+            <div class="question">
+                <p>4. Qual é uma consequência de comportamento antiético na internet?</p>
+                <label><input type="radio" name="q4" value="a">A) Ganho de respeito entre pares.</label><br>
+                <label><input type="radio" name="q4" value="b">B) Consequências legais e perda de confiança.</label><br>
+                <label><input type="radio" name="q4" value="c">C) Maior visibilidade online.</label><br>
+            </div>
+
+            <div class="question">
+                <p>5. A ética digital inclui qual dos seguintes aspectos?</p>
+                <label><input type="radio" name="q5" value="a">A) Apenas questões de segurança online.</label><br>
+                <label><input type="radio" name="q5" value="b">B) Privacidade, direitos autorais e respeito mútuo.</label><br>
+                <label><input type="radio" name="q5" value="c">C) Apenas como criar um site seguro.</label><br>
+            </div>
+
+            <div class="question">
+                <p>6. Qual é a importância da ética digital?</p>
+                <label><input type="radio" name="q6" value="a">A) Manter um ambiente digital seguro e respeitoso.</label><br>
+                <label><input type="radio" name="q6" value="b">B) Tornar-se popular online.</label><br>
+                <label><input type="radio" name="q6" value="c">C) Aumentar o tráfego do seu site.</label><br>
+            </div>
+
+            <div class="question">
+                <p>7. O que significa privacidade digital?</p>
+                <label><input type="radio" name="q7" value="a">A) Direito de estar seguro contra crimes digitais.</label><br>
+                <label><input type="radio" name="q7" value="b">B) Controle sobre quais informações pessoais são compartilhadas online.</label><br>
+                <label><input type="radio" name="q7" value="c">C) Direito de acessar qualquer informação online sem restrições.</label><br>
+            </div>
+
+            <div class="question">
+                <p>8. Por que é importante citar fontes online?</p>
+                <label><input type="radio" name="q8" value="a">A) Para dar crédito ao criador original do conteúdo.</label><br>
+                <label><input type="radio" name="q8" value="b">B) Para parecer mais inteligente.</label><br>
+                <label><input type="radio" name="q8" value="c">C) Para proteger seu site de vírus.</label><br>
+            </div>
+
+            <div class="question">
+                <p>9. Qual das práticas a seguir é considerada ética na internet?</p>
+                <label><input type="radio" name="q9" value="a">A) Enganar as pessoas para obter suas informações pessoais.</label><br>
+                <label><input type="radio" name="q9" value="b">B) Usar software antivírus.</label><br>
+                <label><input type="radio" name="q9" value="c">C) Respeitar as leis de direitos autorais.</label><br>
+            </div>
+
+            <div class="question">
+                <p>10. O que é cyberbullying?</p>
+                <label><input type="radio" name="q10" value="a">A) Um tipo de crime online que visa roubar dados bancários.</label><br>
+                <label><input type="radio" name="q10" value="b">B) Ato de intimidar ou assediar alguém online.</label><br>
+                <label><input type="radio" name="q10" value="c">C) Uma prática segura e ética na internet.</label><br>
+            </div>
+
+            <button type="button" onclick="submitQuiz()">Enviar</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+    <script src="Quiz.js"></script>
+</body>
+</html>
