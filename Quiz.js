@@ -27,12 +27,12 @@ function submitQuiz() {
     resultDiv.innerHTML = `Você acertou ${score} de 10 perguntas.`;
 
     if (score === 10) {
-        resultDiv.innerHTML += "<br>Parabéns! Você é um mestre em ética digital!";
+        resultDiv.innerHTML += "<br>Parabéns!";
     } else if (score >= 7) {
-        resultDiv.innerHTML += "<br>Ótimo trabalho! Você tem um bom entendimento sobre ética digital.";
+        resultDiv.innerHTML += "<br>Bom trabalho! Você entendeu oque é Etíca na Era Digital";
     } else if (score >= 4) {
-        resultDiv.innerHTML += "<br>Você tem um conhecimento razoável sobre ética digital, mas pode melhorar.";
+        resultDiv.innerHTML += "<br>OK!";
     } else {
-        resultDiv.innerHTML += "<br>Você precisa estudar mais sobre ética digital.";
+        resultDiv.innerHTML += "<br>Você não entendeu oque é Ética na Era Digital.";
     }
 }
