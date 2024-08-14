@@ -8,8 +8,10 @@
 </head>
 <body>
     <div class="quiz-container">
+        <!--Título-->
         <h1>Quiz sobre Ética Digital</h1>
         <form id="quizForm">
+            <!--Começo do quiz-->
             <div class="question">
                 <p>1. O que é ética digital?</p>
                 <label><input type="radio" name="q1" value="a">A) Ética que se aplica à programação de computadores.</label><br>
@@ -79,12 +81,14 @@
                 <label><input type="radio" name="q10" value="b">B) Ato de intimidar ou assediar alguém online.</label><br>
                 <label><input type="radio" name="q10" value="c">C) Uma prática segura e ética na internet.</label><br>
             </div>
-
+            
+            <!--Botão de enviar respostas-->
             <button type="button" onclick="submitQuiz()"><b>Enviar</b></button>
         </form>
-
+        <!--Frase do resultado-->
         <div id="result"></div>
     </div>
+    <!--Link com o JS-->
     <script src="Quiz.js"></script>
 </body>
 </html>

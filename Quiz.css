@@ -1,4 +1,4 @@
-
+/*Modifica aspectos gerais do código*/
 body {
     font-family: Arial, sans-serif;
     background-color: #003366;
@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+/*Modifica os aspectos gerais do Quiz*/
 .quiz-container {
     background-color: #fff;
     padding: 20px;
@@ -16,7 +17,7 @@ body {
     width: 100%;
     max-width: 600px;
 }
-
+/*Modifica a "h1"*/
 h1 {
     text-align: center;
     color: #fff;
@@ -26,16 +27,17 @@ h1 {
     padding: 15px;
     display: block;
 }
-
+/*Modifica questão por questão*/
 .question {
     margin-bottom: 20px;
 }
-
+/*Modifica o texto das alternativas*/
 label {
     display: block;
     margin-bottom: 10px;
     color: #555;
 }
+/*Modifica o botão*/
 button {
     display: block;
     width: 100%;
@@ -47,17 +49,18 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
-
+/*Modifica o botão quando clicado/mouse em cima*/
 button:hover {
     background-color: #003366;
 }
-
+/*Modifica a frase do resultado*/
 #result {
     margin-top: 20px;
     font-size: 18px;
     color: #333;
     text-align: center;
 }
+/*Modifica as questões*/
 p {
     color: #fff;
     background-color: #003366;

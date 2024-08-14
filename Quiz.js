@@ -1,8 +1,9 @@
+//Função de Envio das respostas//
 function submitQuiz() {
     const quizForm = document.getElementById('quizForm');
     const resultDiv = document.getElementById('result');
     let score = 0;
-
+//Respostas Corretas//
     const correctAnswers = {
         q1: 'b',
         q2: 'b',
@@ -17,15 +18,15 @@ function submitQuiz() {
     };
 
     const formData = new FormData(quizForm);
-
+//Cálculo da nota//
     for (let [question, answer] of formData.entries()) {
         if (correctAnswers[question] === answer) {
             score++;
         }
     }
-
+//Quantas você acertou//
     resultDiv.innerHTML = `Você acertou ${score} de 10 perguntas.`;
-
+//Frase dependendo da nota//
     if (score === 10) {
         resultDiv.innerHTML += "<br>Parabéns! Você é um mestre em ética digital!";
     } else if (score >= 7) {
