@@ -7,7 +7,7 @@ function submitQuiz() {
     const correctAnswers = {
         q1: 'b',
         q2: 'b',
-        q3: 'a',
+        q3: 'c',
         q4: 'b',
         q5: 'b',
         q6: 'a',
